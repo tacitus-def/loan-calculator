@@ -1,1 +1,1 @@
-# loan-calculator
+# simple-android-timer
