@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_share_to" android:title="@string/action_share_to" android:icon="@drawable/ic_share_to"></item>
+    <item android:id="@+id/action_export" android:title="@string/action_export" android:icon="@drawable/ic_export"></item>
+    <item android:id="@+id/action_copy" android:title="@string/action_copy" android:icon="@drawable/ic_copy"></item>
+    <item android:id="@+id/action_settings" android:title="@string/action_settings" android:icon="@drawable/ic_settings"></item>
+    
+</menu>

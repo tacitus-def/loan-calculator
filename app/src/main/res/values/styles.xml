@@ -1,0 +1,24 @@
+<resources>
+    <attr name="btn_replay" format="reference"/>
+    <attr name="btn_pause" format="reference"/>
+    <attr name="btn_play" format="reference"/>
+    <attr name="btn_new" format="reference"/>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="btn_replay">@drawable/ic_replay</item>
+        <item name="btn_pause">@drawable/ic_pause</item>
+        <item name="btn_play">@drawable/ic_play</item>
+        <item name="btn_new">@drawable/ic_new</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppThemeNight" parent="Theme.AppCompat">
+        <item name="btn_replay">@drawable/ic_replay_night</item>
+        <item name="btn_pause">@drawable/ic_pause_night</item>
+        <item name="btn_play">@drawable/ic_play_night</item>
+        <item name="btn_new">@drawable/ic_new_night</item>
+    </style>
+</resources>

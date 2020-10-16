@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Простой секундомер</string>
+    <string name="action_export">Экспорт в CSV</string>
+	<string name="action_settings">Настройки</string>
+	<string name="action_share_to">Поделиться</string>
+	<string name="action_copy">Копировать</string>
+    <string name="text_chronometer">Секундомер</string>
+    <string name="text_pause">Пауза</string>
+    <string name="text_start">Старт</string>
+    <string name="text_new">Новая контрольная точка</string>
+    <string name="text_reset">Сброс</string>
+    <string name="log_started">Секундомер запущен</string>
+    <string name="log_paused">Секундомер остановлен</string>
+    <string name="log_reset">Секундомер сброшен</string>
+	<string name="log_checkpoint">Контрольная точка №</string>
+	<string name="toast_paused">Секундомер остановлен</string>
+	<string name="toast_item_saved">Изменения сохранены</string>
+	<string name="toast_permission_denied">Отсутствуют права на запись</string>
+	<string name="toast_dir_create_error">Не удается создать директорию &#171;%s/&#187;</string>
+	<string name="toast_exported">Экспорт в &#171;%s&#187; завершён</string>
+	<string name="toast_copied">Список скопирован в буфер</string>
+	<string name="detail_created" formatted="false">Добавлена %s в %s</string>
+	<string name="text_back">Для возврата нажмите кнопку Назад</string>
+	<string name="dlg_btn_yes">Да</string>
+	<string name="dlg_btn_no">Нет</string>
+	<string name="dlg_btn_select">Выбрать</string>
+	<string name="dlg_btn_cancel">Отмена</string>
+	<string name="dlg_reset_title">Подтверждение</string>
+	<string name="dlg_reset_message">Вы действительно хотите сбросить?</string>
+	<string name="dlg_choosedir_title">Выбор папки</string>
+	<string name="dlg_share_to">Выбор папки</string>
+	<string name="pref_keep_screen_on">Всегда включен</string>
+	<string name="pref_keep_screen_on_summary">Удерживать экран включенным</string>
+	<string name="pref_hardware_category">Устройство</string>
+	<string name="pref_export_category">Экспорт</string>
+	<string name="pref_filename_prefix">Префикс имени файла</string>
+	<string name="pref_vibrate">Обратная связь</string>
+	<string name="pref_vibrate_summary">Вибрация при нажатии</string>
+	<string name="pref_use_hardware_buttons">Аппаратные кнопки</string>
+	<string name="pref_use_hardware_buttons_summary">Использовать аппаратные кнопки громкости</string>
+	<string name="pref_night_mode">Ночной режим</string>
+	<string name="pref_night_mode_summary">Ночной режим экрана</string>
+</resources>

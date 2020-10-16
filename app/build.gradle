@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "pro.fossa.apps.timer"
+        minSdkVersion 14
+        targetSdkVersion 28
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+buildscript {
+    repositories {
+        // mavenCentral()
+        jcenter()
+        google()
+    }
+
+}
+dependencies {
+    implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+    implementation 'com.github.rey5137:material:1.2.5'
+}
+

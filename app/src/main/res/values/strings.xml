@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Stopwatch</string>
+    <string name="action_export">Export to CSV</string>
+	<string name="action_settings">Settings</string>
+	<string name="action_share_to">Share to</string>
+	<string name="action_copy">Copy</string>
+    <string name="text_chronometer">Stopwatch</string>
+    <string name="text_pause">Pause</string>
+    <string name="text_start">Start</string>
+    <string name="text_new">New checkpoint</string>
+    <string name="text_reset">Reset</string>
+    <string name="log_started">Stopwatch is started</string>
+    <string name="log_paused">Stopwatch is paused</string>
+    <string name="log_reset">Stopwatch is reset</string>
+	<string name="log_checkpoint">Checkpoint #</string>
+	<string name="toast_paused">Stopwatch is stopped</string>
+	<string name="toast_item_saved">Changes is saved</string>
+	<string name="toast_permission_denied">No write permission</string>
+	<string name="toast_dir_create_error">Can\'t create directory &quot;%s/&quot;</string>
+	<string name="toast_exported">Export to &quot;%s&quot; is done</string>
+	<string name="toast_copied">Is copied into a clipboard</string>
+	<string name="detail_created" formatted="false">Added on %s at %s</string>
+	<string name="text_back">Push Back button for return</string>
+	<string name="dlg_btn_yes">Yes</string>
+	<string name="dlg_btn_no">No</string>
+	<string name="dlg_btn_select">Select</string>
+	<string name="dlg_btn_cancel">Cancel</string>
+	<string name="dlg_reset_title">Confirm</string>
+	<string name="dlg_reset_message">Do you really want to reset?</string>
+	<string name="dlg_choosedir_title">Select folder</string>
+	<string name="dlg_share_to">Share list to…</string>
+	<string name="pref_keep_screen_on">Keep on</string>
+	<string name="pref_keep_screen_on_summary">Prevents switch-off screen</string>
+	<string name="pref_export_category">Export</string>
+	<string name="pref_hardware_category">Hardware</string>
+	<string name="pref_filename_prefix">Filename prefix</string>
+	<string name="pref_vibrate">Vibration feedback</string>
+	<string name="pref_vibrate_summary">Vibration on press</string>
+	<string name="pref_use_hardware_buttons">Hardware buttons</string>
+	<string name="pref_use_hardware_buttons_summary">Use volume hardware buttons</string>
+	<string name="pref_night_mode">Night mode</string>
+	<string name="pref_night_mode_summary">Night screen mode</string>
+</resources>
